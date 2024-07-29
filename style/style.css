@@ -172,9 +172,7 @@ main{
     max-width: 1110px;
     margin-bottom: 100px;
 }
-.collection-container{
-    
-}
+
 .collection-title{
     text-align: center;
     font-size: 28px;
@@ -232,3 +230,107 @@ image img{
     padding-left: 8px;
 }
 /* Collection styles ends here */
+
+
+/* Featured section starts here */
+
+.feature-section{
+    max-width: 1110px;
+    margin-bottom: 100px;
+}
+.feature-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+.feature-content h3{
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.feature-content p{
+    max-width: 500px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(108, 108, 108);
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.feature-content button{
+    background-color: rgb(224, 44, 109);
+    color: white;
+    padding: 10px 24px 10px 24px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.feature-content button> span{
+    padding-left: 12px;
+}
+
+/* Featured section ends here */
+
+
+/* footer styles starts here */
+
+footer{
+    background-color: #0A0826;
+    color: white;
+}
+.footer-container{
+    max-width: 1110px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+.footer-container h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-container p{
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.7rem;
+}
+.social-icon {
+    width: 176px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.instagram, .dribble, .twitter, .youtube{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+}
+.instagram, .dribble, .twitter, .youtube > i {
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.youtube i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/* footer styles ends here */
+
+
+
+/* Small device media quaery starts here */

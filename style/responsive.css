@@ -18,15 +18,27 @@
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+        gap: 10px;
     }
     .banner-image-container{
         width: 100%;
+    }
+    .banner-image-container > img {
+        width: 280px;
+        display: block;
+        margin: 0 auto;
+    }
+    .image-main img{
+        width: 205px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
     }
     .banner-title {
         text-align: center;
         width: 404px;
         height: 78px;
-        font-size: 36px;
+        font-size: 1.8rem;
         font-weight: 700;
         line-height: 42px;
         margin: 0 auto;
@@ -36,10 +48,11 @@
     .banner-description {
         text-align: center;
         width: 321px;
-        height: 65px;
+        font-size: 0.8rem;
+        font-weight: 500;
         margin: 0 auto;
         margin-top: 36px;
-        margin-bottom: 50px;
+        margin-bottom: 16px;
     }
    .btn-primary{
     display: block;
@@ -51,15 +64,22 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         
     }
-    .logos{
-        width: 100%;
+    .logos {
+        width: 352px;
         padding: 0;
+        position: absolute;
+        left: 30px;
+        /* gap: 8px; */
+        /* justify-items: center; */
+        align-items: center;
+        /* display: block; */
+        /* margin: 0 auto; */
     }
-    .logos img{
-        /* height: 50px; */
-        width: 25%;
-        padding: 0;
-
+    .logos img {
+        width: 21%;
+        margin: 0px;
+        padding-top: 20px;
+        align-items: center;
     }
     .border{
         display: none;
